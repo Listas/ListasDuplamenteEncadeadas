@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+
+public class TestaListaDuplamenteEncadeada {
+
+	public static void main(String[] args) {
+		//valor colocado apenas para iniciar a contagem
+		int opcao=10;
+		String elemento = "";
+		Scanner sc = new Scanner(System.in);
+		Scanner valor = new Scanner(System.in);
+		
+		while(opcao != 0){
+			
+			System.out.println("\n....::Menu Lista Duplamente Encadeada::...\n");
+			System.out.println(
+					 "1 - Adicionar Elemento no Fim da Lista \n"
+					+ "2 - Adicionar na posicao desejada \n"
+					+ "3 - Adicionar no Inicio da Lista \n"
+					+ "4 - Remover do Inicio da Lista \n"
+					+ "5 - Remover do Fim da Lista \n"
+					+ "6 - Remover Elemento pela Posicao \n"
+					+ "7 - Verificar Se existe Aquele elemento \n"
+					+ "8 - Verificar o Total de Elementos na Lista \n"
+					+ "9 - Exibir os Elementos da Lista \n"
+					+ "0 - Sair \n");
+
+			opcao = sc.nextInt();
+			switch(opcao){
+			case 1: 
+				//Adicionar no Fim da Lista, caso esteja vazia, será
+				//o inicio Lista e fim da lista,
+				System.out.println("Digite um valor");
+				elemento = valor.next();
+				Object erick = new Object();
+				Celula produto = new Celula(erick);
+				System.out.println(produto.toString());
+				
+				break;
+			case 2: 
+				break;
+			case 3: 
+				break;
+			case 4: 
+				break;
+			case 5: 
+				break;
+			case 6: 
+				break;
+			case 7: 
+				break;
+			case 8: 
+				break;
+			case 9: 
+				break;
+				
+			case 0:
+				System.out.println("Sistema Encerrado com Sucesso !");
+				break;
+			
+			default:
+				System.out.println("Numero Inválido, tente novamente !");
+				break;
+			}
+		
+		
+		
+		}
+		
+		
+		
+	}
+}

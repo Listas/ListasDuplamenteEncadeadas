@@ -1,0 +1,7 @@
+public class ListaLigada {
+
+  private Celula primeira;
+  
+  private Celula ultima;
+
+}

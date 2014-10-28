@@ -1,0 +1,20 @@
+
+public class TestaListaDuplamenteEncadeada {
+
+	public static void main(String[] args) {
+
+		System.out.println("\n....::Menu Lista Duplamente Encadeada::...\n");
+		System.out.println(" "
+				+ "			1- Adicionar no Fim da Lista \n"
+				+ "			2 - Adicionar na posicao desejada \n"
+				+ "         3 - Adicionar no Inicio da Lista \n"
+				+ "         4 - Remover do Inicio da Lista \n"
+				+ " 		5 - Remover do Fim da Lista \n"
+				+ "  		6 - Remover Elemento pela Posicao \n"
+				+ "			7 - Verificar Se existe Aquele elemento \n"
+				+ "			8 - Verificar o Total de Elementos na Lista \n"
+				+ "			9 - Exibir os Elementos da Lista \n");
+		
+	}
+
+}

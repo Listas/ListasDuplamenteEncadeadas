@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\Erick Wendel\Desktop\ListasDuplamenteEncadeada\.metadata\.plugins\org.eclipse.jdt.core
+1713975944.index
+1892999681.index
+1557940164.index
